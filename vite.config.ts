@@ -11,10 +11,16 @@ import { build } from "vite";
 // @cloudflare/vite-plugin builds from this — wrangler.jsonc main alone is insufficient.
 export default defineConfig({
   tanstackStart: {
-    server: { entry: "server" },
-    base:"/Introduction/",
-    build:{
-      outDir:'docs'
-    }
+    server: {
+      entry: "server",
+    },
+  },
+
+  vite: {
+    base: "/Introduction/",
+
+    build: {
+      outDir: "dist",
+    },
   },
 });
