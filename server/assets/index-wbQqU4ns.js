@@ -1,8 +1,8 @@
-import { Q as reactExports, I as jsxRuntimeExports } from "./server-vkML2Z-H.js";
+import { Q as reactExports, I as jsxRuntimeExports } from "./server-BeW2pQde.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-const vivekImg = "/assets/vivek-DdWFsRV8.png";
+const vivekImg = "/Introduction/assets/vivek-DdWFsRV8.png";
 function PixelPanel({
   children,
   className = "",
