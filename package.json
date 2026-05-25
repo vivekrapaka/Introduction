@@ -2,6 +2,7 @@
   "name": "tanstack_start_ts",
   "private": true,
   "sideEffects": false,
+  "homepage": "https://vivekrapaka.github.io/Introduction/",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
@@ -9,7 +10,9 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy":"main"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
